@@ -8,6 +8,8 @@ a simple spreadsheet for generating custom bingo games.
 
 Every time the book is refreshed, the board will change randomly.  Print the board sheet out or copy its values to another sheet to "freeze" it.
 
+The first time you open it, it probably won't do anything until you enable editing since it's a downloaded file.  This is potentially dangerous, so please exercise caution.  I'm a random person on the internet.
+
 ## how it works
 
 In the "Events" sheet, every bingo item is assigned a random value between 0 and 1.  Then all of these values are sorted.  On the "Board" sheet, the top 24 items are put in the squares.  It's really, really simple!
